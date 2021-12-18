@@ -1,5 +1,6 @@
 # BrickBreaker
 > @autor Maynor Alvarez Acopa 
+> @colaborador:
 
 ## bugs
 * Los colider de los bloques se ven afectados por que el colider es un intervalo de tamano y no un objeto como en unity
@@ -12,7 +13,7 @@
 ### estructura del proyecto
 * controller
 * Exceptions
-    *IndexOutLineBlock.java
+    * IndexOutLineBlock.java
 * Main.java
 * Model
 * Service
@@ -25,7 +26,7 @@
     * MoveToWindows.java
     * ScreenControl.java
 * view
-    *Menu.java
+    * Menu.java
 ~~~
 este contenido
 ~~~
