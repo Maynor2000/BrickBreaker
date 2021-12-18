@@ -12,6 +12,7 @@
 ### estructura del proyecto
 * controller
 * Exceptions
+    *IndexOutLineBlock.java
 * Main.java
 * Model
 * Service
@@ -24,6 +25,7 @@
     * MoveToWindows.java
     * ScreenControl.java
 * view
+    *Menu.java
 ~~~
 este contenido
 ~~~
