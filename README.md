@@ -34,3 +34,10 @@ anteriores los onjetos son guardados como nodos a los cuales se van anadiendo a 
 contiene todos los bloques.
 esta clase contiene todos los metodos (funciones) que crean su color, posicion, tamano del bloque.
 ~~~
+### MoveToWindows.java
+~~~
+Esta clase se encarga de crear el movimiento de el balon y la barra los cuales estan dentro de un blucle while true
+por lo que se emplea el uso de los hilos, ademas implementa la interfaz KeyListener para que la barra se mueva al 
+precionar una tecla.
+el balon se mueve de forma autonoma.
+~~~
