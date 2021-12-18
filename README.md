@@ -29,7 +29,8 @@
     * Menu.java
 ### GeneratorLevel.java
 ~~~
-Esta clase genera objetos de tipo Block la cual guarda la posicion, vida, color y el frame con las caracteristicas anteriores
-los onjetos son guardados como nodos a los cuales se van anadiendo a un ArrayList llamado bloks que contiene todos los bloques.
+Esta clase genera objetos de tipo Block la cual guarda la posicion, vida, color y el frame con las caracteristicas
+anteriores los onjetos son guardados como nodos a los cuales se van anadiendo a un ArrayList llamado bloks que
+contiene todos los bloques.
 esta clase contiene todos los metodos (funciones) que crean su color, posicion, tamano del bloque.
 ~~~
