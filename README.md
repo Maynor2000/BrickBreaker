@@ -8,4 +8,22 @@
 ## Mecanismo
 * preciona 'A' o 'D' para desplazar la barra hacia las respectivas direcciones
 * en el menu se encuentran los botones para manejar la musica
-* 
+## Documentacion
+### estructura del proyecto
+* controller
+* Exceptions
+* Main.java
+* Model
+* Service
+    * Ball.java
+    * Block.java 
+    * GeneratorLevel.java
+    * Player.java
+    * Bar.java
+    * Bloque.java
+    * MoveToWindows.java
+    * ScreenControl.java
+* view
+~~~
+este contenido
+~~~
