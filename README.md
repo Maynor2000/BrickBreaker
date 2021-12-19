@@ -1,7 +1,9 @@
 # BrickBreaker
 > @autor Maynor Alvarez Acopa 
+
 > @colaborador:
 
+![Texto alternativo](/brickbreaker/src/main/resources/Captura de pantalla_2021-12-18_18-48-32.png)
 ## bugs
 * Los colider de los bloques se ven afectados por que el colider es un intervalo de tamano y no un objeto como en unity
 * por el problema anterior la ball o balon puede colisionar mas de una vez en el mismo bloque o colisionar varios al rebote
