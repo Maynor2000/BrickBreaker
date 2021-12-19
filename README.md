@@ -1,7 +1,7 @@
 # BrickBreaker
 > @autor Maynor Alvarez Acopa 
 
-> @colaborador:
+> @colaboradores:
 
 ![Texto alternativo](/brickbreaker/src/main/resources/Captura de pantalla_2021-12-18_18-48-32.png)
 ## bugs
