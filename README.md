@@ -41,3 +41,15 @@ por lo que se emplea el uso de los hilos, ademas implementa la interfaz KeyListe
 precionar una tecla.
 el balon se mueve de forma autonoma.
 ~~~
+### ScreenControl.java
+~~~
+Esta clase se encarga de gestionar la pantalla del cliente para que sea adaptable a cualquier tipo de resolucion.
+~~~
+### Player.java
+~~~
+Esta clase contiene funciones para la reproduccion de sonidos waw.
+~~~
+### others.java
+~~~
+las demas clases solo son JFrame para crear los elementos de el juego segun su nombre de la clase.
+~~~
