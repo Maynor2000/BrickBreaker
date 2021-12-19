@@ -13,8 +13,8 @@ public class ScreenControl {
     private Dimension screen;
     
     public ScreenControl() {
-        this.toolkit = Toolkit.getDefaultToolkit();
-        this.screen = this.toolkit.getScreenSize();
+        this.toolkit = Toolkit.getDefaultToolkit();//obtiene el default toolkit
+        this.screen = this.toolkit.getScreenSize();//obtiene la pantalla del equipo utilizado
     }
     /**
      * retorna un int de las dos posibles posiciones con los tamanos de la pantalla

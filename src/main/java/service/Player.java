@@ -25,11 +25,18 @@ public class Player {
     public Player() {
         
     }
+    /**
+     * recive un flujo de datos con la ruta del archivo wav y lo inicializa 
+     * desde este metodo puede reproducirse el clip ya que lo retorna o llamar 
+     * las funciones correspondientes a la accion a realizar
+     * @param  is 
+     * @return Clip listo para ser reproducido
+     **/
     public  Clip setPlayer(InputStream is){
         try {
-            ais = AudioSystem.getAudioInputStream(is);
+            ais = AudioSystem.getAudioInputStream(is);//recive la ruta y guarda un stream de audio
             
-            musica = AudioSystem.getClip();
+            musica = AudioSystem.getClip();//inicializa el clip
             musica.open(ais);
         } catch (LineUnavailableException ex) {
             Logger.getLogger(Menu.class.getName()).log(Level.SEVERE, null, ex);
@@ -41,11 +48,11 @@ public class Player {
         return musica;
     }
     public  void play(){
-        musica.start();
+        musica.start();//rep[roduce
 
     }
      public  void stop(){
-         musica.stop();
+         musica.stop();//detiene
 
     }
     

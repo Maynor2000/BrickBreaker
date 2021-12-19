@@ -20,7 +20,7 @@ import service.ScreenControl;
 public class Menu extends javax.swing.JFrame {
 
     /**
-     * Creates new form Mneu
+     * Creates new form Menu
      */
     public Menu() {
         initComponents();
@@ -90,14 +90,14 @@ public class Menu extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
+//boton para el control de iniciar el juego
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
         dispose();
         level = new GeneratorLevel();
         level.createLevel(20,60);
     }//GEN-LAST:event_jButton1ActionPerformed
-
+// controla la reproduccion del sonido
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         toggle = !toggle;
