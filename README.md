@@ -3,7 +3,7 @@
 
 > @colaboradores:
 
-![imagen](src/main/resources/Captura de pantalla_2021-12-18_18-48-32.png){width='150px' height='150px'}
+![imagen](src/main/resources/Captura_de_pantalla_2021-12-18_18-48-32.png)
 
 
 ## bugs
